@@ -71,11 +71,3 @@ script:
     - if [[ "$SNIFF" == "1" ]]; then $PHPCS_DIR/scripts/phpcs -p -s -v -n . --standard="WordPress-VIP" --extensions=php; fi
     # Unit tests
     # - phpunit --bootstrap
-
-deploy:
-  provider: script
-  skip_cleanup: false
-  script: ./bin/deploy.sh
-  on:
-    branch: master
-    php: 7.0
