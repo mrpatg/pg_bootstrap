@@ -1,0 +1,15 @@
+<?php
+
+require_once dirname( dirname( __FILE__ ) ) . './functions.php';
+
+function _manually_load_environment() {
+	
+	// Add your theme …
+	switch_theme('B4ST');
+	
+	// Update array with plugins to include ...
+
+}
+tests_add_filter( 'muplugins_loaded', '_manually_load_environment' );
+
+require dirname( dirname( __FILE__ ) ) . './tests/bootstrap.php';
