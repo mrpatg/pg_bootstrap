@@ -72,5 +72,3 @@ script:
     - if [[ "$SNIFF" == "1" ]]; then $PHPCS_DIR/scripts/phpcs -p -s -v -n . --standard="WordPress-VIP" --extensions=php; fi
     # Unit tests
     # - phpunit --bootstrap
-
-    openssl aes-256-cbc -K $encrypted_0a6446eb3ae3_key -iv $encrypted_0a6446eb3ae3_key -in ./bin/deploy.key.enc -out ./bin/deploy.key -d
