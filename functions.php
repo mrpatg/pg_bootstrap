@@ -1,6 +1,6 @@
 <?php
 /*
-All the functions are in the PHP pages in the `functions/` folder.
+All the functions are in the PHP pages in the `functions/` folder. Ok
 */
 
 	require get_template_directory() . '/functions/cleanup.php';
