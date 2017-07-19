@@ -2,8 +2,8 @@
 /*
 All the functions are in the PHP pages in the `functions/` folder. Ok
 */
-;;
-	require get_template_directory() . '/functions/cleanup.php';
+
+	require get_template_directory() . '/functions/cleanup.php'
 	require get_template_directory() . '/functions/setup.php';
 	require get_template_directory() . '/functions/enqueues.php';
 	require get_template_directory() . '/functions/navbar.php';
